@@ -134,6 +134,13 @@
   if (typed) {
     let typed_strings = typed.getAttribute('data-typed-items')
     typed_strings = typed_strings.split(',')
+
+    // Prepend the correct article to each string
+    typed_strings = typed_strings.map(str => {
+      let article = ['a', 'e', 'i', 'o', 'u'].includes(str.trim().charAt(0).toLowerCase()) ? 'an' : 'a';
+      return `${article} ${str}`;
+    });
+
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
