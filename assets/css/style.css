@@ -1158,3 +1158,13 @@ section {
 .research-projects .card-body {
   font-size: 0.85vw;
 }
+
+.no-border {
+  border: none;
+}
+
+.portfolio-projects .btn {
+  background-color: #17656c;
+  border-color: #17656c;
+  font-size: 0.85vw;
+}
