@@ -510,6 +510,10 @@ section {
   margin-right: auto;
 }
 
+.resume .resume-item li {
+  font-size: 1vw !important;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 1vw;
