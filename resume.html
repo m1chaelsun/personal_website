@@ -24,6 +24,8 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
@@ -77,12 +79,12 @@
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-up">
                     <h3 class="resume-title">Education</h3>
+                    <p style="font-size: 20px; font-weight: 1000">University of Pennsylvania</p>
                     <div class="resume-item">
                         <h4>BS in Economics</h4>
                         <p><em>Dual Concentration in Finance and Management (Strategic Management)</em></p>
                         <h5>August 2020 - May 2024</h5>
-                        <br>
-                        <h6>The Wharton School - University of Pennsylvania</h6>
+                        <h6>The Wharton School</h6>
                         <p style="font-weight: bold">Notable Accolades</p>
                         <ul>
                             <li>Wharton Dean's Award for Belonging and Inclusion</li>
@@ -101,8 +103,7 @@
                         <h4>BAS in Computer Science</h4>
                         <p><em>Minor in Political Science</em></p>
                         <h5>August 2020 - May 2024</h5>
-                        <br>
-                        <h6>School of Engineering and Applied Science - University of Pennsylvania</h6>
+                        <h6>School of Engineering and Applied Science</h6>
                         <p style="font-weight: bold">Notable Accolades</p>
                         <ul>
                             <li>Charlotte W. Newcombe Foundation Scholarship Recipient</li>
@@ -116,25 +117,18 @@
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="resume-title">Experience</h3>
+                    <h3 class="resume-title">Professional Experience</h3>
+                    <br>
                     <div class="resume-item">
                         <h4>Incoming Commercial Business Analyst</h4>
                         <p><em>Profit Management team</em></p>
-                        <h5>August 2024 - </h5>
-                        <br>
+                        <h5>Starting August 2024</h5>
                         <h6>Wayfair, Boston, MA</h6>
                     </div>
                     <div class="resume-item">
                         <h4>Business Analytics - Business Intelligence Intern</h4>
                         <h5>May 2022 - August 2022</h5>
-                        <br>
                         <h6>Northwestern Mutual, Milwaukee, WI </h6>
-                        <ul>
-                            <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                            <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                            <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -142,60 +136,100 @@
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-up">
                     <h3 class="resume-title">Teaching</h3>
+                    <br>
                     <div class="resume-item">
                         <h4>Head Teaching Assistant</h4>
-                        <h5>January 2022 - May 2024</h5>
+                        <h5>Spring '22, Fall '22, Spring '23, Fall '23, Spring '24</h5>
                         <br>
                         <h6>FNCE 1010: Monetary Economics and the Global Economy</h6>
-                        <p><em>Under the direction of
+                        <p><em>Supervised by
                             <a href="https://www.gideon-bornstein.com/home" target="_blank">Gideon Bornstein</a>,
                             <a href="https://www.sean-myers.net" target="_blank">Sean Myers</a>,
                             <a href="https://sergiosalgado.net" target="_blank">Sergio Salgado</a>,
                             <a href="https://www.gizemsaka.com" target="_blank">Gizem Saka</a>, and
                             <a href="https://www.iavardishvili.com" target="_blank">Ia Vardishvili</a>
                         </em></p>
-                        <ul>
-                            <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                            <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                            <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                        </ul>
+                        <p>
+                            Spearheaded Learning Management System transition to Canvas from myLab Pearson for course assignments
+                            to promote equitable and inclusive course design, saving students $100,000+ in ancillary fees
+                        </p>
+
+                        <div class="relative inline-block text-left" x-data="{ open: false }">
+                            <div>
+                                <button type="button" class="button inline-flex justify-start w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-semibold text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" id="options-menu" aria-haspopup="true" aria-expanded="true" @click="open = !open">
+                                    Selected Comments from Course Evaluations
+                                </button>
+                            </div>
+
+                            <div x-show="open" @click.away="open = false" class="origin-top-right absolute right-0 mt-12 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                                <div class="pt-3 py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu" style="padding-left: 15px">
+                                    <ul>
+                                        <em><li>"Something I wanted to highlight were the TAs.
+                                            Michael Sun in particular was very strong and did a great job of making the
+                                            course concepts easy to digest and to follow. He made sure that everyone
+                                            understood the material and did so in an efficient manner."</em></li>
+                                        <em><li>"Michael Sun was very helpful and explained concepts well in recitation!"</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="resume-item">
                         <h4>Teaching Assistant</h4>
-                        <h5>January 2024 - May 2024</h5>
-                        <br>
-                        <h6>CIS 4120/5120: Introduction to Human-Computer Interaction</h6>
-                        <p><em>Under the direction of Andrew Head</em></p>
+                        <h5>Spring '24</h5>
+                        <h6>CIS 4120/5120: Human-Computer Interaction</h6>
+                        <p><em>Supervised by
+                            <a href="https://andrewhead.info" target="_blank">Andrew Head</a>
+                        </em></p>
                     </div>
                     <div class="resume-item">
                         <h4>Teaching Assistant</h4>
-                        <h5>August 2023 - January 2024</h5>
-                        <br>
+                        <h5>Fall '23</h5>
                         <h6>FNCE 1000: Corporate Finance</h6>
-                        <p><em>Under the direction of Lorena Keller and Huan Tang</em></p>
+                        <p><em>Supervised by
+                            <a href="https://sites.google.com/site/kellerlorena/" target="_blank">Lorena Keller</a>
+                            and
+                            <a href="https://huan-tang.com" target="_blank">Huan Tang</a></em></p>
                     </div>
                     <div class="resume-item">
                         <h4>Teaching Assistant</h4>
-                        <h5>June 2023 - August 2023</h5>
-                        <br>
-                        <h6>Wharton Global Youth Program: Future of the Business World</h6>
-                        <p><em>Under the direction of Ashley Marcovitz and Scott Romeika</em></p>
+                        <h5>Summer '23</h5>
+                        <h6>Wharton Global Youth: Future of the Business World</h6>
+                        <p><em>Supervised by
+                            <a href="http://ashleymarcovitz.com" target="_blank">Ashley Marcovitz</a>
+                            and
+                            <a href="https://romeikaconsulting.com/dr-romeika" target="_blank">Scott Romeika</a></em></p>
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="resume-title">Volunteering</h3>
+                    <p style="font-size: 20px; font-weight: 1000">Common Cents Collaborative, 501(c)(3)</p>
                     <div class="resume-item">
                         <h4>Board Member & President Emeritus</h4>
-                        <h5>January 2022 - Present</h5>
-                        <h6>Common Cents Collaborative, 501(c)(3), Philadelphia, PA </h6>
+                        <h5>January 2024 - Present</h5>
+                        <p>Provide advice and guidance to Executive Board leadership at collegiate chapters, ensuring the mission
+                        of Common Cents is sustained and developed</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>President, Penn Common Cents</h4>
+                        <h5>May 2023 - December 2023</h5>
+                        <ul>
+                            <li>Launched Coffee Chats peer counseling initiative by developing and implementing comprehensive training modules for members;
+                                held 7 coffee chats in Fall 2023</li>
+                            <li>Secured $7,000 in funding from Penn's Office of the Provost (recipient of <em>Campaign for Community</em> Award),
+                                New Student Orientation, and College Houses and Academic Services</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item" style="padding-bottom: 0">
+                        <h4>Vice President, Penn Common Cents</h4>
+                        <h5>May 2022 - May 2023</h5>
                         <ul>
                             <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
                             <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                            <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
                         </ul>
                     </div>
+                    <br>
                     <div class="resume-item">
                         <h4>Resident Advisor</h4>
                         <h5>August 2022 - May 2024</h5>

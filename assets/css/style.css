@@ -483,6 +483,10 @@ section {
   color: #050d18;
 }
 
+.resume .button {
+  font-weight: bold;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -529,7 +533,8 @@ section {
 }
 
 .resume .resume-item ul {
-  padding-left: 20px;
+  padding-left: 5px;
+  margin-bottom: 1px;
 }
 
 .resume .resume-item ul li {
