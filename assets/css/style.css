@@ -502,7 +502,7 @@ section {
 }
 
 .resume .resume-item p {
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 0.5em;
 }
 
@@ -513,12 +513,12 @@ section {
 }
 
 .resume .resume-item li {
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -546,18 +546,18 @@ section {
 
 .resume .resume-item ul {
   padding-left: 5px;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 1px;
 }
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .resume .resume-item::before {
