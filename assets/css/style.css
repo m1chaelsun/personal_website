@@ -74,7 +74,8 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 20vw;
+  margin: 0 auto;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -128,7 +129,7 @@ h6 {
 }
 
 #main {
-  margin-left: 300px;
+  margin-left: 275px;
 }
 
 .container,
@@ -320,7 +321,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
-  font-size: 0.85vw;
+  font-size: 1vw;
 }
 
 .section-title h2 {
@@ -480,10 +481,10 @@ section {
 --------------------------------------------------------------*/
 
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 3vh;
   font-weight: 700;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #050d18;
 }
 
@@ -1121,11 +1122,12 @@ section {
 #footer {
   padding: 15px;
   color: #f4f6fd;
-  font-size: 0.75vw;
+  font-size: 0.9vw;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 20vw;
+  margin: 0 auto;
   z-index: 9999;
   background: #001730;
 }
@@ -1137,7 +1139,7 @@ section {
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
+  font-size: 1vw;
   color: #eaebf0;
 }
 
@@ -1156,11 +1158,11 @@ section {
 }
 
 .research-projects .card-body h6 {
-  font-size: 0.85vw;
+  font-size: 1.2vw;
 }
 
 .research-projects .card-body {
-  font-size: 0.85vw;
+  font-size: 0.9vw;
 }
 
 .no-border {
@@ -1170,5 +1172,4 @@ section {
 .portfolio-projects .btn {
   background-color: #17656c;
   border-color: #17656c;
-  font-size: 0.85vw;
 }
