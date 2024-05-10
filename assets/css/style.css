@@ -92,7 +92,7 @@ h6 {
 }
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 3vh;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -140,7 +140,8 @@ h6 {
 
 @media (max-width: 1199px) {
   #header {
-    left: -300px;
+    left: -1000px;
+    width: 60vw;
   }
 
   #main {
@@ -165,7 +166,7 @@ h6 {
 .nav-menu * {
   margin: 0;
   padding: 0;
-  font-size: 0.9vw;
+  font-size: 17px;
   list-style: none;
 }
 
@@ -268,7 +269,7 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 3.5vw;
+  font-size: 40px !important;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -277,7 +278,7 @@ h6 {
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 1.3vw;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -321,11 +322,11 @@ section {
 
 .section-title {
   padding-bottom: 30px;
-  font-size: 1vw;
+  font-size: 18px;
 }
 
 .section-title h2 {
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
   padding-bottom: 20px;
@@ -346,7 +347,7 @@ section {
 
 .section-title h5 {
   line-height: 1.5;
-  font-size: 1.15vw;
+  font-size: 20px;
 }
 
 .section-title p {
@@ -490,7 +491,7 @@ section {
 
 .resume .button {
   font-weight: bold;
-  font-size: 0.85vw;
+  font-size: 13px;
 }
 
 .resume .resume-item {
@@ -501,7 +502,7 @@ section {
 }
 
 .resume .resume-item p {
-  font-size: 0.85vw;
+  font-size: 13px;
   margin-bottom: 0.5em;
 }
 
@@ -512,12 +513,12 @@ section {
 }
 
 .resume .resume-item li {
-  font-size: 1vw !important;
+  font-size: 13px !important;
 }
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 1vw;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -526,7 +527,7 @@ section {
 }
 
 .resume .resume-item h5 {
-  font-size: .8vw;
+  font-size: 14px;
   background: #e4f0f9;
   padding: 5px 15px;
   display: inline-block;
@@ -535,7 +536,7 @@ section {
 }
 
 .resume .resume-item h6 {
-  font-size: .8vw;
+  font-size: 14px;
   background: #e4e7f9;
   padding: 5px 15px;
   display: inline-block;
@@ -545,18 +546,18 @@ section {
 
 .resume .resume-item ul {
   padding-left: 5px;
-  font-size: 0.85vw;
+  font-size: 15px;
   margin-bottom: 1px;
 }
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
-  font-size: 0.85vw;
+  font-size: 14px;
 }
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
-  font-size: 0.85vw;
+  font-size: 14px;
 }
 
 .resume .resume-item::before {
@@ -1122,7 +1123,7 @@ section {
 #footer {
   padding: 15px;
   color: #f4f6fd;
-  font-size: 0.9vw;
+  font-size: 14px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -1139,7 +1140,7 @@ section {
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 8px;
   color: #eaebf0;
 }
 
@@ -1154,15 +1155,19 @@ section {
 .research-projects .btn {
   background-color: #173b6c;
   border-color: #173b6c;
-  font-size: 0.85vw;
+  font-size: 15px;
 }
 
 .research-projects .card-body h6 {
-  font-size: 1.2vw;
+  font-size: 16px;
 }
 
 .research-projects .card-body {
-  font-size: 0.9vw;
+  font-size: 16px;
+}
+
+.portfolio-projects .card-body p {
+  font-size: 15px !important;
 }
 
 .no-border {

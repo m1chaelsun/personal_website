@@ -127,6 +127,13 @@
     }
   });
 
+  function toggleMenu() {
+    var elements = document.getElementsByClassName('hide-on-mobile');
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].classList.toggle('hide-on-mobile');
+    }
+  }
+
   /**
    * Hero type effect
    */
